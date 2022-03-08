@@ -26,7 +26,7 @@ ul nav {
   color: #93a1a1;
 }
 
-.dfn > .wrapper {
+.wrapper > .dfn {
   background-color: #b58900;
 }
 
@@ -70,4 +70,8 @@ ol + li {
 
 .types li:nth-child(3n) {
   background-color: #d04b16;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
